@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Video Game Sales Analysis</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700Vidpx) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1> video game sales Analysis and Visulaisations</h1>
+  <p>The video game industry is the economic sector involved with the development, marketing and sale of video and computer games to millions of people worldwide.</p>
+</div>
+
+<div class="navbar">
+  <a href="#" class="active">Home</a>
+  <a href="Dashboard.html">Dashboard</a>
+  <a href="Story.html">Story</a>
+  <a href="#" class="right">About</a>
+</div>
+
+<div class="row">
+  <div class="side">
+ 
+    
+    <h2>Design</h2>
+    <p >The Graphs and Charts used in here for visualisation will be more understanding at a quick glance.</p>
+     <br>
+      <h2>Dashboard</h2>
+    <p>The Dashboard that is created in the responsive and dynamic dashboard that you can use to analyze and understand more.</p>
+    <br>
+    <h2>Story</h2>
+    <p>The Narration of data based the visualization and analysis is super engaging.</p>
+    
+  </div>
+  <div class="main">
+    <h2>VG SALES</h2>
+    <br>
+   
+   
+    <p>Video game sales analysis is the process of collecting and analyzing data about the sales of video games in order to understand market trends and consumer behavior. This type of analysis can be useful for a variety of purposes, including identifying the most popular games and genres, predicting future sales, and developing marketing strategies.</p>
+    <br>
+   
+</div>
+
+<div class="footer">
+  <h2>Contact us</h2>
+</div>
+
+</body>
+</html> 
