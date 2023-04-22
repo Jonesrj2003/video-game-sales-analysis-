@@ -6,3 +6,5 @@ dashboard public link - https://us-west-2b.online.tableau.com/t/videogamesales/v
                         
                         
 story public link    -https://us-west-2b.online.tableau.com/t/videogamesales/views/vg_sales/Story1/8ce2fa2d-dd12-4115-b21f-11cc35164907/2085cf45-e4e8-4bc3-b302-6095732dbedc
+
+demonstration video link - https://drive.google.com/file/d/1QNGVEsMrx3NdGYsev15aW-81N81IuH20/view?usp=sharing
